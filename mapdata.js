@@ -51,7 +51,7 @@ var simplemaps_worldmap_mapdata={
     region_hover_opacity: 0.6,
     zoom_out_incrementally: "yes",
     zoom_percentage: 0.99,
-    zoom_time: 0.2,
+    zoom_time: 0.5,
     
 		//Popup settings
 		popup_color: "white",
@@ -69,7 +69,7 @@ var simplemaps_worldmap_mapdata={
     images_directory: "default",
     import_labels: "no",
     fade_time: 0.1,
-    link_text: "View Website"
+    link_text: "View Location"
   },
   state_specific: {
     AF: {
