@@ -30,6 +30,18 @@
 		  
 			observer.observe(document.body, { childList: true, subtree: true });
 		</script>
+		<script>
+  window.addEventListener("load", function () {
+    setTimeout(() => {
+      const zoomEl = document.getElementById("map_zoom");
+      if (zoomEl) zoomEl.style.display = "none";
+
+      const outerEl = document.querySelector(".map-outer");
+      if (outerEl) outerEl.style.display = "none"; // Optional
+    }, 300); // Give the map time to generate
+  });
+</script>
+
 	</body>
 </html>
       
