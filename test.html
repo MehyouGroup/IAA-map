@@ -29,7 +29,31 @@
 			});
 		  
 			observer.observe(document.body, { childList: true, subtree: true });
-		</script>	  
+		</script>
+		<script>
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom > 0;
+  }
+
+  function simulateScrollZoom(target) {
+    const event = new WheelEvent("wheel", {
+      deltaY: -120, // Scroll up to zoom in
+      bubbles: true,	
+      cancelable: true
+    });
+    target.dispatchEvent(event);
+  }
+
+  let alreadyTriggered = false;
+  window.addEventListener("scroll", function () {
+    const wrapper = document.getElementById("map-wrapper");
+    if (!alreadyTriggered && wrapper && isElementInViewport(wrapper)) {
+      simulateScrollZoom(wrapper);
+      alreadyTriggered = true;
+    }
+  });
+</script>
 	</body>
 </html>
       
