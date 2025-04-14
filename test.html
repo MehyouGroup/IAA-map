@@ -36,11 +36,12 @@
       const zoomEl = document.getElementById("map_zoom");
       if (zoomEl) zoomEl.style.display = "none";
 
-      const outerEl = document.querySelector(".map-outer");
-      if (outerEl) outerEl.style.display = "none"; // Optional
-    }, 300); // Give the map time to generate
+      const outerEl = document.getElementById("map_outer");
+      if (outerEl) outerEl.style.display = "none";
+    }, 300); // Delay to allow the map to render
   });
 </script>
+
 
 	</body>
 </html>
