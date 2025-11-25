@@ -874,7 +874,13 @@ var simplemaps_worldmap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    PL: { color: "#C80000", url: "https://www.flyiaa.aero/locations/flight-bases/portugal" },
+    PL: {
+      name: "Poland",
+      description: "default",
+      color: "default",
+      hover_color: "default",
+      url: "default"
+    },
     KP: {
       name: "Dem. Rep. Korea",
       description: "default",
@@ -882,13 +888,7 @@ var simplemaps_worldmap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    PT: {
-      name: "Portugal",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
+    PT: { color: "#C80000", url: "https://www.flyiaa.aero/locations/flight-bases/portugal" },
     PY: {
       name: "Paraguay",
       description: "default",
