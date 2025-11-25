@@ -874,13 +874,7 @@ var simplemaps_worldmap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    PL: {
-      name: "Poland",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
+    PL: { color: "#C80000", url: "https://www.flyiaa.aero/locations/flight-bases/portugal" },
     KP: {
       name: "Dem. Rep. Korea",
       description: "default",
