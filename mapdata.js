@@ -938,7 +938,13 @@ var simplemaps_worldmap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    SA: { color: "#C80000", url: "https://www.flyiaa.aero/locations/ground-bases/ksa" },
+    SA: {
+      name: "Saudi Arabia",
+      description: "default",
+      color: "default",
+      hover_color: "default",
+      url: "default"
+    },
     SD: {
       name: "Sudan",
       description: "default",
