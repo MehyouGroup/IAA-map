@@ -635,7 +635,7 @@ var simplemaps_worldmap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    LB: { color: "#C80000", url: "https://www.flyiaa.aero/locations/flight-bases/lebanon" },
+    LB: { color: "#C80000", url: "https://www.flyiaa.aero/locations/advisory-office/lebanon" },
     LR: {
       name: "Liberia",
       description: "default",
@@ -938,13 +938,13 @@ var simplemaps_worldmap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    SA: {
+    SA: /*{
       name: "Saudi Arabia",
       description: "default",
       color: "default",
       hover_color: "default",
       url: "default"
-    },
+    },*/ { color: "#C80000", url: "https://www.flyiaa.aero/locations/advisory-office/ksa" },
     SD: {
       name: "Sudan",
       description: "default",
