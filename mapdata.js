@@ -465,7 +465,13 @@ var simplemaps_worldmap_mapdata={
       hover_color: "default",
       url: "default"
     },
-    GR: { color: "#C80000", url: "https://www.flyiaa.aero/locations/flight-bases/greece" },
+    GR: {
+      name: "Greece",
+      description: "default",
+      color: "default",
+      hover_color: "default",
+      url: "default"
+    },
     GL: {
       name: "Greenland",
       description: "default",
